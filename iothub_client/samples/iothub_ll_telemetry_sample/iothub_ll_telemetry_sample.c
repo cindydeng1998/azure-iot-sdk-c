@@ -83,7 +83,7 @@ int main(void)
     IOTHUB_CLIENT_TRANSPORT_PROVIDER protocol;
     IOTHUB_MESSAGE_HANDLE message_handle;
     size_t messages_sent = 0;
-    const char* telemetry_msg = "aaaaaaa";
+    const char* telemetry_msg = "ON";
 
     // Select the Protocol to use with the connection
 #ifdef SAMPLE_MQTT
